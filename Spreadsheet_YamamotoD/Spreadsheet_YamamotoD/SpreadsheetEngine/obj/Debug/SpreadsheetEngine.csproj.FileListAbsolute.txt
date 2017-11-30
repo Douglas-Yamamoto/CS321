@@ -1,0 +1,5 @@
+E:\Senior\CPTS321 OO Software Principles\SpeadSheet_YamamotoD\Spreadsheet_YamamotoD\SpreadsheetEngine\bin\Debug\SpreadsheetEngine.dll
+E:\Senior\CPTS321 OO Software Principles\SpeadSheet_YamamotoD\Spreadsheet_YamamotoD\SpreadsheetEngine\bin\Debug\SpreadsheetEngine.pdb
+E:\Senior\CPTS321 OO Software Principles\SpeadSheet_YamamotoD\Spreadsheet_YamamotoD\SpreadsheetEngine\obj\Debug\SpreadsheetEngine.csprojResolveAssemblyReference.cache
+E:\Senior\CPTS321 OO Software Principles\SpeadSheet_YamamotoD\Spreadsheet_YamamotoD\SpreadsheetEngine\obj\Debug\SpreadsheetEngine.dll
+E:\Senior\CPTS321 OO Software Principles\SpeadSheet_YamamotoD\Spreadsheet_YamamotoD\SpreadsheetEngine\obj\Debug\SpreadsheetEngine.pdb
