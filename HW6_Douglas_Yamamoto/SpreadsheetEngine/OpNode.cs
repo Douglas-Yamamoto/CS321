@@ -8,21 +8,54 @@ namespace CptS321
 {
     class OpNode : Node
     {
+        private int precedence;
+        private Node rightChild;
+        private Node leftChild;
+
         public OpNode (string operation)
         {
-            this.nodeName = operation;
+            this.NodeName = operation;
+
+            switch (operation)
+            {
+                case "+" :
+                this.Precedence = 0;
+                break;
+
+                case "-" :
+                this.Precedence = 0;
+                break;
+
+                case "*" :
+                this.Precedence = 1;
+                break;
+
+                case "/" :
+                this.Precedence = 1;
+                break;
+
+                default :
+                this.Precedence = -1;
+                break;
+            }
         }
 
-        public Node rightChild
+        public Node RightChild
         {
-            get { return this.rightChild; }
-            set { this.rightChild = value; }
+            get { return rightChild; }
+            set { rightChild = value; }
         }
 
-        public Node leftChild
+        public Node LeftChild
         {
-            get { return this.leftChild; }
-            set { this.leftChild = value; }
+            get { return leftChild; }
+            set { leftChild = value; }
+        }
+
+        public int Precedence
+        {
+            get { return precedence; }
+            set { precedence = value; }
         }
     }
 }

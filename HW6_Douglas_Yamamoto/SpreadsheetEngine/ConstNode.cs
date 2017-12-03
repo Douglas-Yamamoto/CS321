@@ -10,8 +10,8 @@ namespace CptS321
     {
         public ConstNode(string name, double value)
         {
-            this.nodeName = name;
-            this.nodeValue = value;
+            this.NodeName = name;
+            this.NodeValue = value;
         }
     }
 }

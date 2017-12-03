@@ -10,13 +10,13 @@ namespace CptS321
     {
         public VarNode(string name, double value)
         {
-            this.nodeName = name;
-            this.nodeValue = value;
+            this.NodeName = name;
+            this.NodeValue = value;
         }
         
         public VarNode(string name)
         {
-            this.nodeName = name;
+            this.NodeName = name;
         }
     }
 }

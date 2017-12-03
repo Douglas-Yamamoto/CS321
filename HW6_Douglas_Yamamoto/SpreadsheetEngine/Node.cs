@@ -8,18 +8,20 @@ namespace CptS321
 {
     abstract class Node
     {
+        private string nodeName;
+        private double nodeValue;
         protected Node()
         {
             // Default constructor
         }
 
-        public string nodeName
+        public string NodeName
         {
             get { return this.nodeName; }
             protected set { this.nodeName = value; }
         }
 
-        public double nodeValue
+        public double NodeValue
         {
             get { return this.nodeValue; }
             protected set { this.nodeValue = value; }
