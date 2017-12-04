@@ -8,15 +8,17 @@ namespace CptS321
 {
     class VarNode : Node
     {
+        // Constructor
         public VarNode(string name, double value)
         {
             this.NodeName = name;
             this.NodeValue = value;
         }
-        
-        public VarNode(string name)
+
+        // Takes the dictionary passed through the evaluate function to look up stored variable value
+        public override double evaluate(Dictionary<String, Double> variableDictionary)
         {
-            this.NodeName = name;
+            return variableDictionary[this.NodeName];
         }
     }
 }
